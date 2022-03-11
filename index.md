@@ -37,15 +37,22 @@ You can print out a string and a variable by using this format
 ---
 #43. [Swift Deep Dive] Arrays
 
-`var numArray = [1, 2, 3, 4, 5] [x]`
-`let numbers = [45, 73, 195, 53]`
-    
-    
-    
-    `let computedNumbers = [numbers[0] * numbers[1], numbers[1] * numbers[2], numbers[2] * numbers[3], numbers[3] * numbers[0]]`
+var numArray = [1, 2, 3, 4, 5] [x]
+let numbers = [45, 73, 195, 53]
+
+  let computedNumbers = [numbers[0] * numbers[1], numbers[1] * numbers[2], numbers[2] * numbers[3], numbers[3] * numbers[0]]
     `print(computedNumbers)`
+
+    
+    
+    
+  
     
    
-          ---
+     ---
+     
+      #44. How to Randomise the Dice Images   
+      
+      You can wtite 
                           
 
