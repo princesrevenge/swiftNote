@@ -12,8 +12,8 @@
 #42. [Swift Deep Dive] Variables
 You can print out a string and a variable by using this format 
 
-`var a = 5
-print("The value of a is \(a)")`
+`var a = 5`
+`print("The value of a is \(a)")`
 
 **Triangularing values**
 `func exercise() {
@@ -24,8 +24,11 @@ print("The value of a is \(a)")`
     //Write your code here. 
     //Dont change any of the existing code.
 var x = 0
+
 x=b
+
 b=a
+
 a=x
 
     print("a: \(a)")
