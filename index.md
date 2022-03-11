@@ -11,6 +11,7 @@
 ---
 #42. [Swift Deep Dive] Variables
 You can print out a string and a variable by using this format 
+Make sure you have an equal amount of space between equal signs
 
 `var a = 5`
 `print("The value of a is \(a)")`
@@ -36,11 +37,12 @@ You can print out a string and a variable by using this format
 `}`
 ---
 #43. [Swift Deep Dive] Arrays
+int x = 1
+`var numArray = [1, 2, 3, 4, 5] [x]`
+ You can write arrays also in this format as x for the index of each element in the array 
+`let numbers = [45, 73, 195, 53]`
 
-var numArray = [1, 2, 3, 4, 5] [x]
-let numbers = [45, 73, 195, 53]
-
-  let computedNumbers = [numbers[0] * numbers[1], numbers[1] * numbers[2], numbers[2] * numbers[3], numbers[3] * numbers[0]]
+  `let computedNumbers = [numbers[0] * numbers[1], numbers[1] * numbers[2], numbers[2] * numbers[3], numbers[3] * numbers[0]]`
     `print(computedNumbers)`
 
     
@@ -52,7 +54,12 @@ let numbers = [45, 73, 195, 53]
      ---
      
       #44. How to Randomise the Dice Images   
-      
-      You can wtite 
+       If coding warnings have a white circle in them, it means Xcode things it knows how to fix the error
+       
+      `@IBOutlet wear var dinceImageView: UIImageView!`
+      let diceArray = [1,2,3,4,5,6]`
+    ` diceImageView.image = diceArray[Int.random(in:0...5)]` Another way to do this would be to do 
+    ` diceImageView.image = diceArray.randomElement()
+   
                           
 
