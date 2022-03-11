@@ -34,6 +34,7 @@ You can print out a string and a variable by using this format
  `print("b: \(b)")`
     
 `}`
+---
 #43. [Swift Deep Dive] Arrays
 
 `var numArray = [1, 2, 3, 4, 5] [x]`
@@ -45,6 +46,6 @@ You can print out a string and a variable by using this format
     `print(computedNumbers)`
     
    
-                           
+          ---
                           
 
