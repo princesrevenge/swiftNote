@@ -16,23 +16,21 @@ You can print out a string and a variable by using this format
 `print("The value of a is \(a)")`
 
 **Triangularing values**
-`func exercise() {
+`func exercise() {`
 
-    var a = 5
-    var b = 8
+    `var a = 5`
+    `var b = 8`
+   
+`var x = 0`
+
+`x=b`
+
+`b=a`
+
+`a=x`
+
+    `print("a: \(a)")`
+    `print("b: \(b)")`
     
-    //Write your code here. 
-    //Dont change any of the existing code.
-var x = 0
+`}`
 
-x=b
-
-b=a
-
-a=x
-
-    print("a: \(a)")
-    print("b: \(b)")
-    
-}
-`
